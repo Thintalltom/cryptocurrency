@@ -1,0 +1,269 @@
+
+body
+{
+   font-family: 'Montserrat', sans-serif!important;
+}
+.cointmart
+{
+   color:blue !important;
+}
+
+.collapse .navbar-nav  .nav-item  .nav-link::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background-color:rgb(46, 15, 223);
+    display:block;
+    margin:auto;
+    transition: 0.5s;
+}
+.collapse .navbar-nav  .nav-item  .nav-link.nav-link:hover::after
+{
+width:100%;
+background-color: rgb(39, 36, 221);
+}
+#ns:hover{
+   color:blue;
+}
+.sk
+{
+   background-color: blue;
+   color:white;
+   border: transparent;
+   border-radius: 10px;
+   font-size: smaller;
+   padding:10px;
+   font-weight:bold;
+}
+#blue
+{
+   color:blue !important;
+}
+.crypto{
+   font-weight:bolder;
+    font-size: 60px;
+    color:black;
+}
+.cryptop{
+   font-weight: bold;
+   color:black;
+}
+.rod
+{
+   border:transparent;
+   background-color: blue;
+   color:#fff;
+   border-radius:8px;
+   
+}
+.trade{
+   color:blue;
+   font-weight: bold;
+   cursor: pointer;
+}
+.sell
+{
+   background-color: blue !important;
+   border: #fff;
+}
+.fluid
+{
+   color: black !important;;
+  
+}
+.colordiv
+{
+   background-color: blue !important;
+}
+.few{
+   color:black !important;
+}
+.cheque
+{
+   justify-content: center;
+   align-items: center;
+ 
+}
+.com
+{
+   justify-content: center;
+   align-items: center;
+   
+}
+.guarant
+{
+   justify-content: center;
+   align-items: center;
+   
+}
+.others
+{
+   color:black;
+}
+.last-contain
+{
+   background-color:rgba(0, 0, 0, 0.137);
+   color:rgb(114, 112, 112);
+   
+}
+.last-contain button
+{
+   background-color: blue!important;
+}
+.straight
+{
+   background-color: rgba(204, 202, 202, 0.397);
+}
+.btn
+{
+background-color: blue!important;
+}
+@media only screen and (max-width: 600px) {
+   #ns
+   {
+      float: none;
+   }
+   #blue
+   {
+      font-size: small;
+   }
+   .crypto
+   {
+      font-size: 30px;
+      font-weight: bold;
+      color:black;
+   }
+   .show{
+      font-size: 10px;
+      font-weight: bold;
+      color:black;
+   }
+.rod
+{
+   border:transparent;
+   background-color: blue;
+   color:#fff;
+   border-radius:10px;
+   width:100%;
+   padding-top: 10px;
+   padding-bottom: 30px;
+}
+.rod:focus{
+   background-color: blue;
+}
+
+.trade
+{
+   font-size: smaller;
+   color:black;
+}
+.card
+{
+   font-size: small;
+}
+.close{
+  display: flex;
+  flex-direction: column;
+}
+.up
+{
+   font-size: small;
+   text-align: center;
+   color:black;
+}
+.create{
+   font-size:20px;
+   color:black;
+}
+.variety
+{
+   color:black;
+   font-size: 12px;
+}
+.popular
+{
+   display: flex;
+   flex-direction: column;
+   font-size:small;
+   text-align: center;
+   color:black;
+}
+.chart
+{
+   display:flex;
+   flex-direction: column;
+   align-content: center;
+}
+.most
+{
+   text-align: center;
+   font-size: 15px;
+   color:black;
+}
+.slow
+{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.colordiv{
+   display: flex;
+   flex-direction:column;
+   font-size: large;
+   padding:20px;
+   text-align: center;
+}
+.colordiv p {
+   font-size: small;
+}
+.support
+{
+   font-size: 10px;
+}
+.few
+{
+   font-size: 30px;
+   color: black !important;
+}
+.others{
+   display: flex;
+   flex-direction: column;
+   
+}
+.last-contain{
+   display: flex;
+   flex-direction: column;
+   font-size: small;
+   text-align: center;
+}
+.last-contain h4{
+font-size: 15px;
+color:white;
+}
+.last-contain button
+{
+text-transform:lowercase;
+background-color: blue !important;
+}
+.straight{
+   background-color: white !important;
+}
+.last-holder
+{
+   display: flex;
+   flex-direction: column;
+}
+.store{
+   display: flex;
+   flex-direction:column-reverse;
+}
+.troll
+{
+   display: flex;
+   flex-direction:column;
+}
+.animate__slideInLeft{
+   animation-delay: 50ms;
+}
+} 
+
